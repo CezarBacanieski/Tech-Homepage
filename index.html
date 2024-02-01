@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacanieski Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <header>
+            <div class="container">
+                <section class="logo">
+                    <a href="index.html">
+                        <strong>Cezar</strong>
+                        <span class="blue-dot"></span>
+                        <span>Bacanieski</span>
+                    </a>
+                </section>
+                <nav>
+                    <ul>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#promotions">Promotions</a></li>
+                        <li><a href="#newsletter">NewsLetter</a></li>
+                        <li class="menu-icon"><img src="images/menu_icon.png" alt="menu-icon"></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+
+        <section class="hero" id="about-us">
+            <picture>
+                <source media="(max-width: 576px)" srcset="images/Hero_Mobile.jpg" id="mobile-foto">
+                <source media="(max-width: 960px)" srcset="images/Hero_Tablet.jpg">
+                <source media="(max-width: 1440px)" srcset="images/Hero_Large_Desktop.jpg">
+                <img src="images/Hero_Desktop.jpg" alt="hero image - smart watch">
+            </picture>
+            
+            <div class="hero-content">
+                <div class="container">
+                    <h1>Explore our new watch series</h1>
+                    <p>
+                        Este relógio super estiloso e renomado irá te ajudar em suas principais atividades do dia a dia como por exemplo
+                        uma simples caminhada até acompanhar os índices de nossa bolsa de valores e suas principais ações.
+                    </p>
+                    <a href="https://www.apple.com/br/watch/?afid=p238%7Cs2y8FBns7-dc_mtid_20925syj61704_pcrid_675813247329_pgrid_152134863294_pexid__&cid=wwa-br-kwgo-watch-slid----AppleWatch-Avail-" target="_blank">
+                         <button>See all watches</button>
+                    </a>    
+                </div>
+            </div>
+        </section>
+        
+        <section class="best-sellers" id="promotions">
+            <h2>Best Sellers</h2>
+            <hr>
+            <div class="product-slider">
+                <div class="container">
+                    
+                    <div class="product new">
+                        <div class="product-picture">
+                            <img src="images/Watch_case.jpg" alt="product: Penom Case">
+                        </div>
+                        <div class="product-info">
+                            <h5 class="categories">Smart Watches, Cases, Apple</h5>
+                            <h4 class="title">Penom Case for Apple Watch</h4>
+                            <h3 class="price">
+                                <sapan>US$ 6.99</sapan>
+                            </h3>
+                            <button>Add to bag</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product new">
+                        <div class="product-picture">
+                            <img src="images/Headphone.jpg" alt="product: Noise Cancelling Headphone">
+                        </div>
+                        <div class="product-info">
+                            <h5 class="categories">Headphones, Audio, Sound</h5>
+                            <h4 class="title">Noise Cancelling Headphone</h4>
+                            <h3 class="price">
+                                <span>US$ 18.49</span>
+                            </h3>
+                            <button>Add to bag</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product new">
+                        <div class="product-picture">
+                            <img src="images/Camera.jpg" alt="product: Canon Digital SLR EOS Rabel T6">
+                        </div>
+                        <div class="product-info">
+                            <h5 class="categories">Cameras, Kits, Photo & Video</h5>
+                            <h4 class="title">Canon Digital SLR EOS Rebel T6</h4>
+                            <h3 class="price">
+                                <span class="discounted-price">US$ 396.89</span>
+                                <span class="original-price">US$ 429.99</span>
+                            </h3>
+                            <button>Add to bag</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter" id="newsletter">
+            <h3>NewsLetter Signup</h3>
+            <p>Subscribe now and don't miss a single deal!</p>
+            <form>
+                <input type="email" name="email" placeholder="exemplo@gmail.com">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="bottom-nav">
+                <div class="container">
+                    <ul>
+                        <li class="list-title">Categorias</li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Cameras</a></li>
+                        <li><a href="#">Phones</a></li>
+                        <li><a href="#">Tabletes</a></li>
+                        <li><a href="#">Computers</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="list-title">About Us</li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Stores</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="list-title">Social Media</li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="list-title">Custumer Service</li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Delivery & Returns</a></li>
+                        <li><a href="#">Finance</a></li>
+                    </ul>
+                </div>
+
+                
+            </div>
+            <div class="copyright-text">
+                2023 &copy; All Rights Reserved
+            </div>
+        </footer>
+
+    </body>
+
+</html>
